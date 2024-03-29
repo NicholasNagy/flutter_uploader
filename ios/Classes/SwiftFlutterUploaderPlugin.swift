@@ -297,7 +297,7 @@ public class SwiftFlutterUploaderPlugin: NSObject, FlutterPlugin {
 
         if fileManager.fileExists(atPath: tempPath!.path) {
             do {
-                try fileManager.¢(at: tempPath!)
+                try fileManager.removeItem(at: tempPath!)
             } catch {
                 completionHandler(nil, FlutterError(code: "io_error", message: "failed to delete file \(requestFile)", details: nil))
                 return
