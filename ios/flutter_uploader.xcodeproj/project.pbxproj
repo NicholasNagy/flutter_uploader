@@ -1,0 +1,108 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		F8EEDAF02BB7375F00524DF9 /* CachingStreamHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachingStreamHandler.swift; sourceTree = "<group>"; };
+		F8EEDAF12BB7375F00524DF9 /* EngineManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineManager.swift; sourceTree = "<group>"; };
+		F8EEDAF22BB7375F00524DF9 /* FlutterUploaderPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlutterUploaderPlugin.h; sourceTree = "<group>"; };
+		F8EEDAF32BB7375F00524DF9 /* FlutterUploaderPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlutterUploaderPlugin.m; sourceTree = "<group>"; };
+		F8EEDAF42BB7375F00524DF9 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		F8EEDAF52BB7375F00524DF9 /* MimeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MimeType.swift; sourceTree = "<group>"; };
+		F8EEDAF62BB7375F00524DF9 /* SwiftFlutterUploaderPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFlutterUploaderPlugin.swift; sourceTree = "<group>"; };
+		F8EEDAF72BB7375F00524DF9 /* UploaderDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploaderDefaults.swift; sourceTree = "<group>"; };
+		F8EEDAF82BB7375F00524DF9 /* UploaderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploaderDelegate.swift; sourceTree = "<group>"; };
+		F8EEDAF92BB7375F00524DF9 /* UploadFileInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadFileInfo.swift; sourceTree = "<group>"; };
+		F8EEDAFA2BB7375F00524DF9 /* UploadResultDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadResultDatabase.swift; sourceTree = "<group>"; };
+		F8EEDAFB2BB7375F00524DF9 /* UploadTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadTask.swift; sourceTree = "<group>"; };
+		F8EEDAFC2BB7375F00524DF9 /* URLSessionTask.State+statusText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSessionTask.State+statusText.swift"; sourceTree = "<group>"; };
+		F8EEDAFD2BB7375F00524DF9 /* URLSessionUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionUploader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		F8EEDAE92BB733F400524DF9 = {
+			isa = PBXGroup;
+			children = (
+				F8EEDAFE2BB7375F00524DF9 /* Classes */,
+			);
+			sourceTree = "<group>";
+		};
+		F8EEDAFE2BB7375F00524DF9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F8EEDAF02BB7375F00524DF9 /* CachingStreamHandler.swift */,
+				F8EEDAF12BB7375F00524DF9 /* EngineManager.swift */,
+				F8EEDAF22BB7375F00524DF9 /* FlutterUploaderPlugin.h */,
+				F8EEDAF32BB7375F00524DF9 /* FlutterUploaderPlugin.m */,
+				F8EEDAF42BB7375F00524DF9 /* Key.swift */,
+				F8EEDAF52BB7375F00524DF9 /* MimeType.swift */,
+				F8EEDAF62BB7375F00524DF9 /* SwiftFlutterUploaderPlugin.swift */,
+				F8EEDAF72BB7375F00524DF9 /* UploaderDefaults.swift */,
+				F8EEDAF82BB7375F00524DF9 /* UploaderDelegate.swift */,
+				F8EEDAF92BB7375F00524DF9 /* UploadFileInfo.swift */,
+				F8EEDAFA2BB7375F00524DF9 /* UploadResultDatabase.swift */,
+				F8EEDAFB2BB7375F00524DF9 /* UploadTask.swift */,
+				F8EEDAFC2BB7375F00524DF9 /* URLSessionTask.State+statusText.swift */,
+				F8EEDAFD2BB7375F00524DF9 /* URLSessionUploader.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		F8EEDAEA2BB733F400524DF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+			};
+			buildConfigurationList = F8EEDAED2BB733F400524DF9 /* Build configuration list for PBXProject "flutter_uploader" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8EEDAE92BB733F400524DF9;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		F8EEDAEE2BB733F400524DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		F8EEDAEF2BB733F400524DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8EEDAED2BB733F400524DF9 /* Build configuration list for PBXProject "flutter_uploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8EEDAEE2BB733F400524DF9 /* Debug */,
+				F8EEDAEF2BB733F400524DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8EEDAEA2BB733F400524DF9 /* Project object */;
+}

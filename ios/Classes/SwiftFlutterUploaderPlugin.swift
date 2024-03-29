@@ -284,10 +284,20 @@ public class SwiftFlutterUploaderPlugin: NSObject, FlutterPlugin {
         let requestId = UUID().uuidString.replacingOccurrences(of: "-", with: "_")
         let requestFile = "\(requestId).req"
         let tempPath = tempDirectory.appendingPathComponent(requestFile, isDirectory: false)
+            
+        // Create Temporary directory for .req file if it does not exist already
+        do
+        {
+            try FileManager.default.createDirectory(atPath: NSTemporaryDirectory(), withIntermediateDirectories: true, attributes: nil)
+        }
+        catch let error as NSError
+        {
+            NSLog("Unable to create directory \(error.debugDescription)")
+        }
 
         if fileManager.fileExists(atPath: tempPath!.path) {
             do {
-                try fileManager.removeItem(at: tempPath!)
+                try fileManager.¢(at: tempPath!)
             } catch {
                 completionHandler(nil, FlutterError(code: "io_error", message: "failed to delete file \(requestFile)", details: nil))
                 return
